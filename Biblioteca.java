@@ -10,7 +10,7 @@ public class Biblioteca {
     }
 
     // ter o todo o acervo
-    public List<Livro> getAcevo(){
+    public List<Livro> getAcervo(){
         return acervo;
     }
 

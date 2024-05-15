@@ -21,7 +21,7 @@
     - arrays
 
 - **Main**
-    - Todas as entradas de dados e pequenas verificações
+    - Todas as entradas de dados e pequenas verificações:
       - private static void adicionarLivro();
       - private static void removerLivro();
       - private static void buscarLivro();

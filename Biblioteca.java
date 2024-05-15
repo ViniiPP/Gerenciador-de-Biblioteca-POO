@@ -9,7 +9,7 @@ public class Biblioteca {
         acervo = new ArrayList<>(); 
     }
 
-    // ter o todo o acervo
+    // ter acesso total do acervo
     public List<Livro> getAcervo(){
         return acervo;
     }

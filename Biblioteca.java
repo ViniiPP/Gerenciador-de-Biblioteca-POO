@@ -40,6 +40,12 @@ public class Biblioteca {
         if (livro.getNumeroPaginas() < 0){
             throw new Exception("O número de páginas deve ser maior que zero.");
         }
+
+        for (Livro L : acervo){
+            if (L.getTitulo().equalsIgnoreCase(livro.getTitulo())){
+                throw new Exception("Já existe um livro com esse título cadastrado no acervo.");
+            }
+        }
         acervo.add(livro);
     }
 

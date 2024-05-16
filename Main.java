@@ -40,6 +40,7 @@ public class Main {
                 biblioteca.adicionarLivro(novoLivro);
                 System.out.println("Livro adiciona com sucesso!");
             } catch (Exception e){
+                System.out.println();
                 System.out.println("Erro ao adicionar livro: " + e.getMessage());
             }
         }

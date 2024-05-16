@@ -7,21 +7,21 @@
 
 ## Classes
 
-- Livro:
+- **Livro:**
     - titulo
     - autor
     - anoPublicacao
     - numeroPaginas
 
-- Biblioteca
+- **Biblioteca**
     - adicionarLivro
     - removerLivro
     - listarLivro
     - buscarLivro
     - arrays
 
-- Main
-    - Todas as entradas de dados e pequenas verificações
+- **Main**
+    - Todas as entradas de dados e pequenas verificações:
       - private static void adicionarLivro();
       - private static void removerLivro();
       - private static void buscarLivro();
